@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+        <div class="box">
+        	<img src="turmtable.jpg" class="turmrable" >
+        </div>
+        <button id="choujiang">click</button>
+        <script>
+        	document.getElementById("choujiang").onclick = function(){
+        		var d = "rotate("+360*10+"deg)";
+        		document.getElementsByClassName("turmrable")[0].style.transform=d;
+        	}
+        </script>
+    </body>
+</html>

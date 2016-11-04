@@ -1,0 +1,8 @@
+.turmrable {
+	width: 70%;
+	transition: all 1s;
+}
+.box {
+	margin-top: 120px;
+	text-align: center;
+}
